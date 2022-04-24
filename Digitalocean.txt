@@ -1,0 +1,372 @@
+Available Datacenters(可用数据中心)
+
+Datacenter  Geographic Location             Slug    oem_name1
+NYC1        New York City, United States    nyc1    美国纽约市
+NYC2        New York City, United States    nyc2    美国纽约市
+NYC3        New York City, United States    nyc3    美国纽约市
+AMS2        Amsterdam, the Netherlands      ams2    荷兰阿姆斯特丹
+AMS3        Amsterdam, the Netherlands      ams3    荷兰阿姆斯特丹
+SFO1        San Francisco, United States    sfo1    美国旧金山
+SFO2        San Francisco, United States    sfo2    美国旧金山
+SFO3        San Francisco, United States    sfo3    美国旧金山
+SGP1        Singapore                       sgp1    新加坡
+LON1        London, United Kingdom          lon1    英国伦敦
+FRA1        Frankfurt, Germany              fra1    德国法兰克福
+TOR1        Toronto, Canada                 tor1    加拿大多伦多
+BLR1        Bangalore, India                blr1    印度班加罗尔
+
+
+Droplet Official Image(官方操作系统镜像)
+
+ID           Name                  Type        Distribution    Slug                   Public    Min Disk
+77558491     12.2 ufs x64          snapshot    FreeBSD         freebsd-12-x64-ufs     true      20
+77558552     12.2 zfs x64          snapshot    FreeBSD         freebsd-12-x64-zfs     true      15
+78547182     1.5.8 x64             snapshot    RancherOS       rancheros              true      15
+84780898     34 x64                snapshot    Fedora          fedora-34-x64          true      15
+89246461     8 Stream x64          snapshot    CentOS          centos-stream-8-x64    true      15
+95344509     35 x64                snapshot    Fedora          fedora-35-x64          true      15
+96967120     RockyLinux 8.5 x64    snapshot    Rocky Linux     rockylinux-8-x64       true      15
+96967133     RockyLinux 8.4 x64    snapshot    Rocky Linux     rockylinux-8-4-x64     true      15
+100167549    7 x64                 snapshot    CentOS          centos-7-x64           true      15
+101111514    20.04 (LTS) x64       snapshot    Ubuntu          ubuntu-20-04-x64       true      15
+101120353    9 x64                 snapshot    Debian          debian-9-x64           true      15
+101121241    18.04 (LTS) x64       snapshot    Ubuntu          ubuntu-18-04-x64       true      15
+101121352    21.10 x64             snapshot    Ubuntu          ubuntu-21-10-x64       true      15
+101134485    10 x64                snapshot    Debian          debian-10-x64          true      15
+101537412    11 x64                snapshot    Debian          debian-11-x64          true      15
+
+
+Droplet Official 1-check Image(市场和一键部署镜像)
+
+SLUG                                         TYPE
+gitlab-gitlabenterprise-18-04                droplet
+kloudio-18-04                                droplet
+bitmark-bitmarknode-18-04                    droplet
+antmedia-antmediaserveren-16-04              droplet
+antmedia-antmediaserveren-16-04              droplet
+antmedia-antmediaserveren-16-04              droplet
+solace-solacepubsubeven-18-04                droplet
+solace-solacepubsubeven-18-04                droplet
+erpnext-18-04                                droplet
+plasmapay-plasmadltblockch-18-04             droplet
+nibblecomm-spotipo-18-04                     droplet
+skaffolder-18-04                             droplet
+deadletter-18-04                             droplet
+cyberscore-18-04                             droplet
+bazookawasps-waspswithbazooka-18-04          droplet
+sourcegraph-18-04                            droplet
+memgraph-9-7                                 droplet
+optimajet-workflowserver-18-04               droplet
+vitalpointz-7-6                              droplet
+reblaze-reblazewaf-18-04                     droplet
+helpy-18-04                                  droplet
+snapt-snaptaria-18-04                        droplet
+sharklabs-minecraftjavaedi-18-04             droplet
+sharklabs-nodejsquickstart-18-04             droplet
+eltrino-magento2opensour-18-04               droplet
+snapt-snaptnova-18-04                        droplet
+snapt-snaptaria-18-04                        droplet
+centoswebpanel-cwpcontrolpanel-7             droplet
+zoomadmin-18-04                              droplet
+supabase-supabaserealtime-18-04              droplet
+issabel-7                                    droplet
+posthog-18-04                                droplet
+openfaas-18-04                               droplet
+redash-18-04                                 droplet
+cloudbees-cloudbeesjenkins-18-04             droplet
+nimbella-18-04                               droplet
+acra-18-04                                   droplet
+selenoid-18-04                               droplet
+zeromon-zabbix-18-04                         droplet
+honeydbagent-9                               droplet
+fastnetmon-18-04                             droplet
+deadcanaries-onionroutedcloud-18-04          droplet
+shopware-18-04                               droplet
+nakama-18-04                                 droplet
+onjection-jenkins-16-04                      droplet
+prometheus-18-04                             droplet
+buddy-18-04                                  droplet
+opencart-18-04                               droplet
+solidinvoice-18-04                           droplet
+sharklabs-pacvim-18-04                       droplet
+thingsboard-18-04                            droplet
+influxdb-18-04                               droplet
+code-server-18-04                            droplet
+metabase-18-04                               droplet
+alfio-7-6                                    droplet
+weconexpbx-7-6                               droplet
+thingsboardpe-18-04                          droplet
+vardot-varbase-18-04                         droplet
+bcoin-18-04                                  droplet
+quickcorp-qcobjects-18-04                    droplet
+fathom-18-04                                 droplet
+pihole-18-04                                 droplet
+botpress-18-04                               droplet
+mattermost-18-04                             droplet
+rethinkdb-rethinkdbfantasi-18-04             droplet
+sharklabs-ninjam-10-0                        droplet
+workarea-18-04                               droplet
+xcart-7                                      droplet
+iota-iotahornetnode-18-04                    droplet
+unlight-openunlight-18-04                    droplet
+erpnext-18-04                                droplet
+bitwarden-18-04                              droplet
+sharklabs-foldinghome-18-04                  droplet
+sharklabs-pythondjangoquic-18-04             droplet
+mozilla-hubscloudpersona-18-04               droplet
+wikijs-18-04                                 droplet
+meltano-18-04                                droplet
+lightninginsight-birdanalytics-18-04         droplet
+strapi-18-04                                 droplet
+revox-keplerbuilder-18-04                    droplet
+buddy-repman-18-04                           droplet
+devdojo-laravel-20-04                        droplet
+wftutorials-purdm-18-04                      droplet
+fastpanel-deb-9                              droplet
+nmtec-erxes-18-04                            droplet
+magedin-magento-18-04                        droplet
+rethinkdb-18-04                              droplet
+hasura-18-04                                 droplet
+bagisto-18-04                                droplet
+opentradestatist-rstudiostan-18-04           droplet
+icecoder-20-04                               droplet
+litespeedtechnol-openlitespeedcla-18-04      droplet
+countly-18-04                                droplet
+grafana-18-04                                droplet
+flashphoner-7-6                              droplet
+shiftedit-serverwand-18-04                   droplet
+ultrahorizon-uhvpn-18-04                     droplet
+gluu-gluuserverce-18-04-3                    droplet
+opentradestatist-rstudioh2o-18-04            droplet
+opentradestatist-rstudiopkgdev-18-04         droplet
+netfoundry-7-6                               droplet
+traccar-20-04                                droplet
+seknox-trasa-20-04                           droplet
+nknfullnode-18-04                            droplet
+uxlens-18-04                                 droplet
+aplitel-vitalpbx-7                           droplet
+nlnetlabs-krill-18-04                        droplet
+flipstarter-18-04                            droplet
+opendronemap-webodm-18-04                    droplet
+nethesis-nethserver-7                        droplet
+harperdb-18-04                               droplet
+zabbix-zabbixproxy-8                         droplet
+mastodon-18-04                               droplet
+chamilo-18-04                                droplet
+opentradestatist-bigbluebuttonser-16-04      droplet
+openfaas-openfaaswithfaas-20-04              droplet
+caddy-18-04                                  droplet
+eummena-moodle-10                            droplet
+zabbix-7-6                                   droplet
+ascensiosystem-onlyoffice-18-04              droplet
+izenda-18-04                                 droplet
+castai-castaikubernetes-20-04                droplet
+auspiciaab-theplanminderpos-20-04            droplet
+corezoid-corezoidprocesse-7-6                droplet
+castai-kubernetes119-20-04                   droplet
+netverity-netbox-20-04                       droplet
+directus-18-04                               droplet
+csmm-20-04                                   droplet
+starkdrones-decentralizedint-18-04           droplet
+openvpn-18-04                                droplet
+litespeedtechnol-openlitespeeddja-20-04      droplet
+akaunting-20-04                              droplet
+runcloud-runcloud1804-18-04                  droplet
+runcloud-runcloud2004-20-04                  droplet
+webkul-qloapps-18-04                         droplet
+litespeedtechnol-openlitespeednod-20-04      droplet
+selfhostedpro-yacht-20-04                    droplet
+jadiangaming-solderio-18-04-5                droplet
+doppler-20-04                                droplet
+zeslecp-7                                    droplet
+threatwatch-twigs-20-04                      droplet
+bigcloud-oddocr-18-04                        droplet
+flexifyio-flexifyiomulticl-20-04             droplet
+ten7-computingforcovi-18-04-4                droplet
+charlottetest1-18-04                         droplet
+spatie-mailcoach-20-04                       droplet
+devopstechlab-jenkinsdevopstec-20-04-2       droplet
+curiositygmbh-curiosity-16-04                droplet
+cloudup-webwordpress-20-04                   droplet
+theoryforce-wordpressnginxle-10              droplet
+supabase-supabasepostgres-18-04              droplet
+sharklabs-minecraftbedrock-20-04             droplet
+charlottetestpub-18-04                       droplet
+uzerpllp-uzerp-18-04                         droplet
+openboxes-20-04                              droplet
+cloudup-lamppoweredbyclo-20-04               droplet
+pyboxtechnologie-pyboxtechmed-20-04          droplet
+bugfender-20-04                              droplet
+apisnetworks-apiscp-8-3                      droplet
+vodianetworks-vodiaphonesystem-10            droplet
+invoiceninja-20-0-4                          droplet
+humhubgmbhkg-humhub-10                       droplet
+peppermintlabs-peppermint                    droplet
+autopanel-autopanelwordpre-20-04-2           droplet
+rocketchat-20-04                             droplet
+peppermintlabs-peppermint                    droplet
+aecsystems-speckleserver-20-04               droplet
+gutiumtestapp-18-04                          droplet
+gutiumtestapp2-18-04                         droplet
+mpdev-gutiumtestapp-18-04                    droplet
+mpdev-gutiumtestapp2-18-04                   droplet
+dokos-18-04                                  droplet
+greendeployhq-django32lts-20-04              droplet
+chevereto-20-04                              droplet
+mistio-mist-20-04                            droplet
+mpdev-vlad-18-04                             droplet
+mpdev-dtestrenamed-1                         droplet
+mpdev-dtest2-1                               droplet
+mpdev-vladanother-18-04                      droplet
+mpdev-vladanothertest-1                      droplet
+mpdev-vladanothertest2-666                   droplet
+mpdev-dtest2-1                               droplet
+mpdev-vladanothertest3-1                     droplet
+mpdev-vladappname-18-04                      droplet
+mpdev-vladappname2-18-04                     droplet
+mpdev-vladappname3-18-04                     droplet
+mpdev-sluotest-18-04                         droplet
+mpdev-dtest-1                                droplet
+mpdev-sluotest2-18-01                        droplet
+mpdev-seanluologo-18-04                      droplet
+mpdev-sluotestlogo2-18-04                    droplet
+jelastic-jelasticpaas-7                      droplet
+dsuhininapp1-18-04                           droplet
+dokku-20-04                                  droplet
+discourse-20-04                              droplet
+hectortestdontde-20-04                       droplet
+kromit-titra-20-04                           droplet
+charlottemp3529p-18-04                       droplet
+gigantum-gigantumclient-20-04                droplet
+lemp-20-04                                   droplet
+rstudio-20-04                                droplet
+mpdev-gutiumapptoremov-18-04                 droplet
+mpdev-testcreateapp-20-04                    droplet
+microwebercms-microweber-20-04               droplet
+docker-20-04                                 droplet
+mpdev-hectortestimages-18-04                 droplet
+varnishsoftware-varnishcache-18-04           droplet
+appsmith-18-04                               droplet
+hystax-freecostmanageme-20-04                droplet
+testytest-12                                 droplet
+testtest2-112                                droplet
+rubyonrails-20-04                            droplet
+django-20-04                                 droplet
+hectortestdontde-20-04                       droplet
+sluodroplettest7-18-04                       droplet
+sluodroplet72620-18-04                       droplet
+charlottemp3529f-18-04                       droplet
+sluodroplettestj-18-04                       droplet
+dsuhinintest1-18-04                          droplet
+charlottemp3529p-18-04                       droplet
+dsuhinin27071-18-04                          droplet
+dsuhinin27072-18-04                          droplet
+mpdev-gutiumtestingfil-20-04                 droplet
+mpdev-gutiumtestfileco-20-04                 droplet
+mpdev-gutiumfilecointe-20-04                 droplet
+mpdev-gutiumtestlempim-20-04                 droplet
+litespeedtechnol-cyberpanel-20-04            droplet
+hyfinity-webmakerserver-20-04                droplet
+mpdev-gutiumfilecointe-20-04                 droplet
+mpdev-gutiumfilecointf-20-04                 droplet
+restya-restyaboard-20-04                     droplet
+flussonic-20-04                              droplet
+azuracast-20-04                              droplet
+mgtcommercegmbh-cloudpanel1-10-10            droplet
+haproxywi-roxywi-7                           droplet
+analythium-opencpu-20-04                     droplet
+lamp-20-04                                   droplet
+mongodb-18-04                                droplet
+mysql-20-04                                  droplet
+hectortestdontde-18-04                       droplet
+mpdev-gutiumtestapp333-20-04                 droplet
+cpanel-cpanelwhm-7-9                         droplet
+charlottemp3529p-18-04                       droplet
+konnectedmindzte-hyperledgerfabri-18-04      droplet
+antmedia-antmediaserverco-18-04              droplet
+antmedia-antmediaserveren-18-04              droplet
+nethermind-20-04                             droplet
+kasmtechnologies-kasmworkspaces-18-04        droplet
+simplex-simplexserver-20-04                  droplet
+mpdev-paultest2-20-04                        droplet
+perconamonitorin-7                           droplet
+litespeedtechnol-openlitespeedwor-20-04      droplet
+veronikatest-18-04                           droplet
+mpdev-gutiumtestcreati-20-04                 droplet
+mpdev-hectortestapp1-20-01                   droplet
+nirvatosoftware-nirvashare-20-04             droplet
+mpdev-hectordevtest2-20-10                   droplet
+ispsystem-ispmanager-7                       droplet
+phpmyadmin-20-04                             droplet
+devrel-teleport-20-04                        droplet
+wordpress-20-04                              droplet
+mpdev-hectorinmutables-18-04                 droplet
+sandflysecurity-20-04                        droplet
+litespeedtechnol-openlitespeedjoo-20-04      droplet
+codelathe-filecloud-20-04                    droplet
+gitea-20-04                                  droplet
+owncast-10                                   droplet
+cubitetechnologi-cubite-20-04                droplet
+everlifeaipte-everlifeai                     droplet
+caprover-18-04                               droplet
+livehelperchat-7-8-2003                      droplet
+softlab24-opensourcesocial-18-04             droplet
+budibase-20-04                               droplet
+mpdev-hectorinmutables                       droplet
+grandnode-grandnode20-18-04                  droplet
+jitsiserver-20-04                            droplet
+plesk-20-04                                  droplet
+plesk-pleskcentos-7-9                        droplet
+eltrino-magento2opensour-20-04               droplet
+bunkercloudservi-warpspeedvpn-18-04          droplet
+ascensiosystemsi-onlyofficeeditor-18-04-4    droplet
+helpyio-helpypro-18-04                       droplet
+dsuhininapp-18-04                            droplet
+appwrite-20-04                               droplet
+saltcorn-20-04                               droplet
+restya-restyaboardcento-8-3                  droplet
+sharklabs-matrixsynapsebac-10                droplet
+photoprism-20-04                             droplet
+znuny-znunylts-10                            droplet
+znuny                                        droplet
+ghost-20-04                                  droplet
+protocollabs-filecoinlotus-20-04             droplet
+nodearmy                                     droplet
+searchblox-searchbloxenterp-7-6              droplet
+analythium-shinyproxy-20-04                  droplet
+airbyte                                      droplet
+utnadmins-utunnelvpn                         droplet
+jetappsstorageve-jetbackup5                  droplet
+gravitl-netmaker                             droplet
+severalnines-clustercontrol-20-04            droplet
+gitlab-gitlabenterprise-20-04                droplet
+meilisas-meilisearch-10                      droplet
+kuyio-wireguardianvpna                       droplet
+litespeedtechnol-openlitespeedrai-20-04      droplet
+powertrader-coincollectorbyp                 droplet
+simontelephonics-freepbx-7-8                 droplet
+cloudron-20-04                               droplet
+kandralabs-zulip-18-04                       droplet
+victoriametrics-victoriametricss             droplet
+nodegame-18-04                               droplet
+questdb-20-04                                droplet
+nodejs-20-04                                 droplet
+pharoahlanesoftw-webdnaserver864-18-04       droplet
+passboltsa-passboltce-20-04                  droplet
+
+
+Speedtest(速度测试)
+http://speedtest-sgp1.digitalocean.com/
+speedtest-nyc1.digitalocean.com
+speedtest-nyc2.digitalocean.com
+speedtest-nyc3.digitalocean.com
+speedtest-ams2.digitalocean.com
+speedtest-ams3.digitalocean.com
+speedtest-sfo1.digitalocean.com
+speedtest-sfo2.digitalocean.com
+speedtest-sfo3.digitalocean.com
+speedtest-sgp1.digitalocean.com
+speedtest-lon1.digitalocean.com
+speedtest-fra1.digitalocean.com
+speedtest-tor1.digitalocean.com
+speedtest-blr1.digitalocean.com
