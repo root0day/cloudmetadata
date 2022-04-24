@@ -1,0 +1,30 @@
+
+Region(区域信息)
+
+Code           oem_name1
+ap-west        亚太西部-孟买
+ca-central     加州中央-多伦多	
+ap-southeast   亚太南部-新加坡
+us-central     美国中部-达拉斯
+us-west        美国西部-弗里蒙特
+us-southeast   美国东南部-亚特兰大
+us-east        美国东部-纽瓦克
+eu-west        欧盟西部-伦敦
+ap-south       亚太东南-悉尼
+eu-central     欧盟中部-法兰克福
+ap-northeast   亚太东北-东京2	
+
+
+speedtest(速度测试)
+https://www.linode.com/speed-test/
+speedtest.newark.linode.com
+speedtest.singapore.linode.com
+speedtest.london.linode.com
+speedtest.frankfurt.linode.com
+speedtest.dallas.linode.com
+speedtest.toronto1.linode.com
+speedtest.syd1.linode.com
+speedtest.atlanta.linode.com
+speedtest.tokyo2.linode.com
+speedtest.mumbai1.linode.com
+speedtest.fremont.linode.com
