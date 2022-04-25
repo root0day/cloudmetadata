@@ -1,17 +1,43 @@
 
-地域节点        地域简称          测速IP地址动态       COS地址
-华北北京        ap-beijing        140.249.68.149       cos.ap-beijing.myqcloud.com
-华东上海        ap-shanghai       58.217.230.58        cos.ap-shanghai.myqcloud.com
-华南广州        ap-guangzhou      14.119.113.22        cos.ap-guangzhou.myqcloud.com
-西南成都        ap-chengdu        182.140.199.13       cos.ap-chengdu.myqcloud.com
-西南重庆        ap-chongqing      183.66.97.159        cos.ap-chongqing.myqcloud.com
-香港            ap-hongkong       119.28.80.58         cos.ap-hongkong.myqcloud.com
-新加坡          ap-singapore      150.109.0.191        cos.ap-singapore.myqcloud.com
-多伦多          na-toronto        45.113.69.73         cos.na-toronto.myqcloud.com
-法兰克福        eu-frankfurt      49.51.129.251        cos.eu-frankfurt.myqcloud.com
-孟买            ap-mumbai         119.28.242.179       cos.ap-mumbai.myqcloud.com
-首尔            ap-seoul          119.28.147.117       cos.ap-seoul.myqcloud.com
-硅谷            na-siliconvalley  49.51.66.233         cos.na-siliconvalley.myqcloud.com
-弗吉尼亚        na-ashburn        49.51.77.119         cos.na-ashburn.myqcloud.com
-曼谷            ap-bangkok        150.109.165.64       cos.ap-bangkok.myqcloud.com
-莫斯科          eu-moscow         162.62.3.46          cos.eu-moscow.myqcloud.com
+id    region                regionName                   regionNameEn                            regionPrefix         zoneList
+1     ap-guangzhou          华南地区（广州）             South China (Guangzhou)                 gz                   [{"zoneId     100001,"zoneName     "广州一区"},{"zoneId     100002,"zoneName     "广州二区"},{"zoneId     100003,"zoneName     "广州三区"},{"zoneId     100004,"zoneName     "广州四区"}]},
+12    ap-guangzhou-open     华南地区（广州Open）         South China (Guangzhou Open)            gzopen               [{"zoneId     120001,"zoneName     "Open专区"}]},
+54    ap-qingyuan           华南地区（清远）             South China（Qingyuan）                 qy                   [{"zoneId     540001,"zoneName     "清远一区"}]},
+73    ap-qingyuan-xinan     华南地区（清远信安）         South China（Qingyuan-Xinan）           qyxa                 [{"zoneId     730001,"zoneName     "清远信安一区"}]},
+72    ap-jakarta            印度尼西亚（雅加达）         Indonesia（Jakarta）                    jkt                  [{"zoneId     720001,"zoneName     "雅加达一区"},{"zoneId     720002,"zoneName     "雅加达二区"}]},
+74    sa-saopaulo           南美地区（圣保罗）           SouthAmerica（Saopaulo）                sao                  [{"zoneId     740001,"zoneName     "圣保罗一区"}]},
+77    ap-shenzhen-sycft     深圳深宇财付通               shenzhensycft                           szsycft              [{"zoneId     770001,"zoneName     "深圳深宇财付通一区"}]},
+37    ap-shenzhen           华南地区（深圳）             South China (Shenzhen)                  szx                  [{"zoneId     370001,"zoneName     "深圳一区"}]},
+11    ap-shenzhen-fsi       华南地区（深圳金融）         South China (Shenzhen Finance)          szjr                 [{"zoneId     110001,"zoneName     "深圳金融一区      zoneCode     "ap-shenzhen-fsi-1"},{"zoneId     110002,"zoneName     "深圳金融二区      zoneCode     "ap-shenzhen-fsi-2"},{"zoneId     110003,"zoneName     "深圳金融三区      zoneCode     "ap-shenzhen-fsi-3"}]},
+4     ap-shanghai           华东地区（上海）             East China (Shanghai)                   sh                   [{"zoneId     200001,"zoneName     "上海一区"},{"zoneId     200002,"zoneName     "上海二区"},{"zoneId     200003,"zoneName     "上海三区"},{"zoneId     200004,"zoneName     "上海四区"}]},
+7     ap-shanghai-fsi       华东地区（上海金融）         East China (Shanghai Finance)           shjr                 [{"zoneId     700001,"zoneName     "上海金融一区      zoneCode     "ap-shanghai-fsi-1"},{"zoneId     700002,"zoneName     "上海金融二区      zoneCode     "ap-shanghai-fsi-2"},{"zoneId     700003,"zoneName     "上海金融三区      zoneCode     "ap-shanghai-fsi-3"}]},
+33    ap-nanjing            华东地区（南京）             East China (Nanjing)                    nj                   [{"zoneId     330001,"zoneName     "南京一区"}]},
+31    ap-jinan-ec           华东地区（济南）             East China (Jinan)                      jnec                 [{"zoneId     310001,"zoneName     "济南一区"}]},
+32    ap-hangzhou-ec        华东地区（杭州）             East China (Hangzhou)                   hzec                 [{"zoneId     320001,"zoneName     "杭州一区"}]},
+34    ap-fuzhou-ec          华东地区（福州）             East China (Fuzhou)                     fzec                 [{"zoneId     340001,"zoneName     "福州一区"}]},
+56    ap-shenyang-ec        东北地区（沈阳）             Northeast China (ShenYang)              sheec                [{"zoneId     560001,"zoneName     "沈阳一区"}]},
+57    ap-xian-ec            西北地区（西安）             Northwest China (XiAn)                  xiyec                [{"zoneId     570001,"zoneName     "西安一区"}]},
+71    ap-zhengzhou-ec       华中地区（郑州）             Central China (ZhengZhou)               cgoec                [{"zoneId     710001,"zoneName     "郑州一区"}]},
+8     ap-beijing            华北地区（北京）             North China (Beijing)                   bj                   [{"zoneId     800001,"zoneName     "北京一区"},{"zoneId     800002,"zoneName     "北京二区"},{"zoneId     800003,"zoneName     "北京三区"},{"zoneId     800004,"zoneName     "北京四区"}]},
+36    ap-tianjin            华北地区（天津）             North China (Tianjin)                   tsn                  [{"zoneId     360001,"zoneName     "天津一区"},{"zoneId     360002,"zoneName     "天津二区"}]},
+53    ap-shijiazhuang-ec    华北地区（石家庄）           North China (Shijiazhuang)              sjwec                [{"zoneId     530001,"zoneName     "石家庄一区"}]},
+46    ap-beijing-fsi        华北地区（北京金融）         North China (Beijing Finance)           bjjr                 [{"zoneId     460001,"zoneName     "北京金融一区"},{"zoneId     460002,"zoneName     "北京金融二区"}]},
+35    ap-wuhan-ec           华中地区（武汉）             Central China (Wuhan)                   whec                 [{"zoneId     350001,"zoneName     "武汉一区"}]},
+45    ap-changsha-ec        华中地区（长沙）             Central China (Changsha)                csec                 [{"zoneId     450001,"zoneName     "长沙一区"}]},
+16    ap-chengdu            西南地区（成都）             Southwest China (Chengdu)               cd                   [{"zoneId     160001,"zoneName     "成都一区"},{"zoneId     160002,"zoneName     "成都二区"}]},
+19    ap-chongqing          西南地区（重庆）             Southwest China (Chongqing)             cq                   [{"zoneId     190001,"zoneName     "重庆一区"}]},
+55    ap-hefei-ec           华东地区（合肥）             East China (Hefei)                      hfeec                [{"zoneId     550001,"zoneName     "合肥一区"}]},
+39    ap-taipei             中国台北                     Taipei, China                           tpe                  [{"zoneId     390001,"zoneName     "台北一区"}]},
+5     ap-hongkong           中国香港                     Southeast Asia (Hong Kong, China)       hk                   [{"zoneId     300001,"zoneName     "香港一区"},{"zoneId     300002,"zoneName     "香港二区"}]},
+9     ap-singapore          东南亚地区（新加坡）         Southeast Asia (Singapore)              sg                   [{"zoneId     900001,"zoneName     "新加坡一区"}]},
+23    ap-bangkok            亚太地区（曼谷）             Asia Pacific (Bangkok)                  th                   [{"zoneId     230001,"zoneName     "曼谷一区"}]},
+21    ap-mumbai             亚太南部（孟买）             South Asia Pacific (Mumbai)             in                   [{"zoneId     210001,"zoneName     "孟买一区"},{"zoneId     210002,"zoneName     "孟买二区"}]},
+18    ap-seoul              亚太地区（首尔）             Asia Pacific (Seoul)                    kr                   [{"zoneId     180001,"zoneName     "首尔一区"}]},
+25    ap-tokyo              亚太地区（东京）             Asia Pacific (Tokyo)                    jp                   [{"zoneId     250001,"zoneName     "东京一区"}]},
+15    na-siliconvalley      美国西部（硅谷）             Western US (Silicon Valley)             usw                  [{"zoneId     150001,"zoneName     "硅谷一区"},{"zoneId     150002,"zoneName     "硅谷二区"}]},
+22    na-ashburn            美东地区（弗吉尼亚）         Eastern US (Virginia)                   use                  [{"zoneId     220001,"zoneName     "弗吉尼亚一区"}]},
+6     na-toronto            北美地区（多伦多）           North America (Toronto)                 ca                   [{"zoneId     400001,"zoneName     "多伦多一区"}]},
+17    eu-frankfurt          欧洲地区（法兰克福）         Europe (Frankfurt)                      de                   [{"zoneId     170001,"zoneName     "法兰克福一区"}]},
+24    eu-moscow             欧洲地区（莫斯科）           Europe (Moscow)                         ru                   [{"zoneId     240001,"zoneName     "莫斯科一区"}]},
+58    ap-xibei-ec           西北地区（加速）             Northwest China                         xbec                 [{"zoneId     580001,"zoneName     "西北一区"}]},
+78    ap-shanghai-adc       华东地区（上海自动驾驶云）   East China (ap-shanghai-adc)            shadc                [{"zoneId     780001,"zoneName     "上海自动驾驶云一区      zoneCode     "ap-shanghai-adc-1"}]}],"intlRegionList     [
