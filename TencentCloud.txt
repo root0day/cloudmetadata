@@ -1,1 +1,17 @@
 
+地域节点        地域简称          测速IP地址动态       COS地址
+华北北京        ap-beijing        140.249.68.149       cos.ap-beijing.myqcloud.com
+华东上海        ap-shanghai       58.217.230.58        cos.ap-shanghai.myqcloud.com
+华南广州        ap-guangzhou      14.119.113.22        cos.ap-guangzhou.myqcloud.com
+西南成都        ap-chengdu        182.140.199.13       cos.ap-chengdu.myqcloud.com
+西南重庆        ap-chongqing      183.66.97.159        cos.ap-chongqing.myqcloud.com
+香港            ap-hongkong       119.28.80.58         cos.ap-hongkong.myqcloud.com
+新加坡          ap-singapore      150.109.0.191        cos.ap-singapore.myqcloud.com
+多伦多          na-toronto        45.113.69.73         cos.na-toronto.myqcloud.com
+法兰克福        eu-frankfurt      49.51.129.251        cos.eu-frankfurt.myqcloud.com
+孟买            ap-mumbai         119.28.242.179       cos.ap-mumbai.myqcloud.com
+首尔            ap-seoul          119.28.147.117       cos.ap-seoul.myqcloud.com
+硅谷            na-siliconvalley  49.51.66.233         cos.na-siliconvalley.myqcloud.com
+弗吉尼亚        na-ashburn        49.51.77.119         cos.na-ashburn.myqcloud.com
+曼谷            ap-bangkok        150.109.165.64       cos.ap-bangkok.myqcloud.com
+莫斯科          eu-moscow         162.62.3.46          cos.eu-moscow.myqcloud.com
