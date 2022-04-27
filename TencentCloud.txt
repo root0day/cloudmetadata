@@ -9,7 +9,7 @@ id    region                regionName                   regionNameEn           
 72    ap-jakarta            印度尼西亚（雅加达）         Indonesia (Jakarta)                     jkt                Base_Zone                            
 74    sa-saopaulo           南美地区（圣保罗）           SouthAmerica (Saopaulo)                 sao                Base_Zone                            
 77    ap-shenzhen-sycft     深圳深宇财付通               shenzhensycft                           szsycft            Internal_Zone                        
-37    ap-shenzhen           华南地区（深圳）             South China (Shenzhen)                  szx                Internal_Zone                        
+37    ap-shenzhen           华南地区（深圳）             South China (Shenzhen)                  szx                Finance_Zone                         
 11    ap-shenzhen-fsi       华南地区（深圳金融）         South China (Shenzhen Finance)          szjr               Base_Zone                            
 4     ap-shanghai           华东地区（上海）             East China (Shanghai)                   sh                 Base_Zone                            
 7     ap-shanghai-fsi       华东地区（上海金融）         East China (Shanghai Finance)           shjr               Finance_Zone                         
@@ -88,3 +88,46 @@ zoneList
 [{"zoneId     240001,"zoneName     "莫斯科一区"}]},
 [{"zoneId     580001,"zoneName     "西北一区"}]},
 [{"zoneId     780001,"zoneName     "上海自动驾驶云一区      zoneCode     "ap-shanghai-adc-1"}]}],"intlRegionList     [
+
+COS园区默认域名
+cos.ap-guangzhou.myqcloud.com
+cos.ap-guangzhou-open.myqcloud.com
+cos.ap-qingyuan.myqcloud.com
+cos.ap-qingyuan-xinan.myqcloud.com
+cos.ap-jakarta.myqcloud.com
+cos.sa-saopaulo.myqcloud.com
+cos.ap-shenzhen-sycft.myqcloud.com
+cos.ap-shenzhen.myqcloud.com
+cos.ap-shenzhen-fsi.myqcloud.com
+cos.ap-shanghai.myqcloud.com
+cos.ap-shanghai-fsi.myqcloud.com
+cos.ap-nanjing.myqcloud.com
+cos.ap-jinan-ec.myqcloud.com
+cos.ap-hangzhou-ec.myqcloud.com
+cos.ap-fuzhou-ec.myqcloud.com
+cos.ap-shenyang-ec.myqcloud.com
+cos.ap-xian-ec.myqcloud.com
+cos.ap-zhengzhou-ec.myqcloud.com
+cos.ap-beijing.myqcloud.com
+cos.ap-tianjin.myqcloud.com
+cos.ap-shijiazhuang-ec.myqcloud.com
+cos.ap-beijing-fsi.myqcloud.com
+cos.ap-wuhan-ec.myqcloud.com
+cos.ap-changsha-ec.myqcloud.com
+cos.ap-chengdu.myqcloud.com
+cos.ap-chongqing.myqcloud.com
+cos.ap-hefei-ec.myqcloud.com
+cos.ap-taipei.myqcloud.com
+cos.ap-hongkong.myqcloud.com
+cos.ap-singapore.myqcloud.com
+cos.ap-bangkok.myqcloud.com
+cos.ap-mumbai.myqcloud.com
+cos.ap-seoul.myqcloud.com
+cos.ap-tokyo.myqcloud.com
+cos.na-siliconvalley.myqcloud.com
+cos.na-ashburn.myqcloud.com
+cos.na-toronto.myqcloud.com
+cos.eu-frankfurt.myqcloud.com
+cos.eu-moscow.myqcloud.com
+cos.ap-xibei-ec.myqcloud.com
+cos.ap-shanghai-adc.myqcloud.com
