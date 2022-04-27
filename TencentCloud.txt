@@ -9,8 +9,8 @@ id    region                regionName                   regionNameEn           
 72    ap-jakarta            印度尼西亚（雅加达）         Indonesia (Jakarta)                     jkt                Base_Zone                            
 74    sa-saopaulo           南美地区（圣保罗）           SouthAmerica (Saopaulo)                 sao                Base_Zone                            
 77    ap-shenzhen-sycft     深圳深宇财付通               shenzhensycft                           szsycft            Internal_Zone                        
-37    ap-shenzhen           华南地区（深圳）             South China (Shenzhen)                  szx                Finance_Zone                         
-11    ap-shenzhen-fsi       华南地区（深圳金融）         South China (Shenzhen Finance)          szjr               Base_Zone                            
+37    ap-shenzhen           华南地区（深圳）             South China (Shenzhen)                  szx                Base_Zone                            
+11    ap-shenzhen-fsi       华南地区（深圳金融）         South China (Shenzhen Finance)          szjr               Finance_Zone                         
 4     ap-shanghai           华东地区（上海）             East China (Shanghai)                   sh                 Base_Zone                            
 7     ap-shanghai-fsi       华东地区（上海金融）         East China (Shanghai Finance)           shjr               Finance_Zone                         
 33    ap-nanjing            华东地区（南京）             East China (Nanjing)                    nj                 Base_Zone                            
